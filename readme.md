@@ -22,6 +22,6 @@ Create a simple blockchain system to enable two parties to play a tic-tac-toe ga
 - To recreate the game using pubnub, please refer to recreate-game.txt
 
 
-# EXTRA:
+# Offline implementation:
 - In order to better illustrate the workings of the tic-tac-toe game, I have included a folder 'Offline_Implementation' which includes the program necessary to implement one tic-tac-toe game per execution.
 - To recreate the game offline, please refer to offline.txt
