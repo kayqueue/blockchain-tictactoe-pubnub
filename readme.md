@@ -3,8 +3,8 @@ Grade: 98/100
 # Goal:
 Create a simple blockchain system to enable two parties to play a tic-tac-toe game using PubNub package
 
-[1] Generate the genesis block
-[2] At each turn, the player who is taking the turn creates a new block in JSON format and sends it to the other player in the following format:
+1: Generate the genesis block
+2: At each turn, the player who is taking the turn creates a new block in JSON format and sends it to the other player in the following format:
     {
         “TxID": <TxID>,
         "Hash": <Hash>,
