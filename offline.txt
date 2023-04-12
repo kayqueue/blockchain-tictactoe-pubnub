@@ -1,0 +1,10 @@
+Step 1:
+-------
+- move into /Offline_Implementation directory and open a terminal
+- execute the following command into the command line interface:
+CLI: python3 driver.py
+
+Expectations:
+-------------
+- The first thing the program does is generate a genesis_block
+- Afterwards, the program automatically generates a random available move for each player and prints out the state of the game board after each move made.

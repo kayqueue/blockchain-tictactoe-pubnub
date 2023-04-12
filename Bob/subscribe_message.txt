@@ -1,0 +1,82 @@
+Bob has joined the game.
+{
+    "TxID": 1,
+    "Hash": "bc0becadbf5c7ad0e14d4d4be8952bf6a3e7d79cdec519fdd675f3d073804839",
+    "Nonce": 9790,
+    "Transaction": [
+        "Alice",
+        "D"
+    ]
+}
+{
+    "TxID": 2,
+    "Hash": "000f30e3036a2acac950e4311db8eb1cdad727451632439d8e5bd72d18303cb1",
+    "Nonce": 667,
+    "Transaction": [
+        "Bob",
+        "F"
+    ]
+}
+{
+    "TxID": 3,
+    "Hash": "000c289dc5df60cb78fd7c358883a07a0da5d3c546f9e2854d6a39883b05e132",
+    "Nonce": 509,
+    "Transaction": [
+        "Alice",
+        "I"
+    ]
+}
+{
+    "TxID": 4,
+    "Hash": "0007fa9c29bf73586d49c5570cfd6b904dbc30b164159a760ed3a964dac627cf",
+    "Nonce": 5459,
+    "Transaction": [
+        "Bob",
+        "G"
+    ]
+}
+{
+    "TxID": 5,
+    "Hash": "0006c4413879f3fce96b8a0821b0f3644acfdcb4133657f9bdc09735ef89bffc",
+    "Nonce": 4477,
+    "Transaction": [
+        "Alice",
+        "H"
+    ]
+}
+{
+    "TxID": 6,
+    "Hash": "00053b2bf488e38dd77ca97e1d872fc7cdf7134800aee914d3f2077a0474a2db",
+    "Nonce": 6296,
+    "Transaction": [
+        "Bob",
+        "E"
+    ]
+}
+{
+    "TxID": 7,
+    "Hash": "0002ec6ea7e585be73c0bfbe1f716975debb0eae0950f995702a68e9fbe6b5b9",
+    "Nonce": 3317,
+    "Transaction": [
+        "Alice",
+        "A"
+    ]
+}
+{
+    "TxID": 8,
+    "Hash": "00056364d936605f889ef2185d87813ffd8304d901ee1a21d746f598b9d0f68c",
+    "Nonce": 9743,
+    "Transaction": [
+        "Bob",
+        "B"
+    ]
+}
+{
+    "TxID": 9,
+    "Hash": "00072c2e2488d5048b110bcf1920d2297af2a5030ceb99b1910d1fc49f7b0f54",
+    "Nonce": 1356,
+    "Transaction": [
+        "Alice",
+        "C"
+    ]
+}

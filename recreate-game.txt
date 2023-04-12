@@ -1,0 +1,51 @@
+Steps to recreate the game:
+---------------------------
+IMPORTANT: Please delete all the json files, including board.json, and subscribe_message.txt before proceeding to recreate the game.
+
+Step 1 - Generate the genesis block
+-----------------------------------
+- Change directory to Assignment3/
+- run the following command in the command line interface
+CLI: python3 genesis_block.py
+
+Step 2 - Connecting to Pubnub channel
+-------------------------------------
+- Open up a terminal in Assignment3/Alice. For clarity, I will call this Terminal_Alice
+- Run the command:
+CLI: python3 launch_pubnub.py
+--> After executing the command, please check that "subscribe_message.txt" is created.
+
+- Open up a separate terminal in Assignment3/Bob, For clarity, I will call this Terminal_Bob
+- Run the command:
+CLI: python3 launch_pubnub.py
+--> After executing the command, please check that three files are created - "0.json", "board.json", and "subscribe_message.txt".
+
+--> Head over to Assignment3/Alice and make sure that two more files are created - "0.json" and "board.json"
+
+Step 3 - Alice's turn
+----------------------
+- Under Terminal_Alice, open up a new tab. For clarity, I will call the tab Alice_Tab. This tab will be used to send Alice's moves(blocks) to the other player through the pubnub channel.
+- Execute the following command in Alice_Tab to make a move:
+CLI: python3 send_block.py
+
+After every execution of the send_block.py command in the terminal, look out for the following:
+1 - the json block and the state of the tic-tac-toe board will be displayed in Terminal_Alice and Terminal Bob.
+
+2 - a json file will be created e.g. 1.json, 2.json
+
+
+Step 4 - Bob's turn
+-------------------
+- Under Terminal_Bob, open up a new tab. For clarity, I will call the tab Bob_Tab. This tab will be used to send Bob's moves(blocks) to the other player through the pubnub channel.
+- Execute the following command in Bob_Tab to make a move:
+CLI: python3 send_block.py
+
+After every execution of the send_block.py command in the terminal, look out for the following:
+1 - the json block and the state of the tic-tac-toe board will be displayed in Terminal_Alice and Terminal Bob.
+
+2 - a json file will be created e.g. 1.json, 2.json
+
+Step 5 - Game ends
+------------------
+- Once a winner is found OR a draw is concluded, alternate between Step 3 and Step 4.
+- Once the game ends, execute a ctrl + z keypress to terminate the pubnub connection in Terminal_Alice and Terminal_Bob
